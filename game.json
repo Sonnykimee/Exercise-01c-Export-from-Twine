@@ -1,0 +1,157 @@
+{
+  "passages": [
+    {
+      "text": "It's Saturday night. You are relaxing on your sofa watching Netflix. The movie is rather silly and boring. When you reached out your hand for a bag of chips, suddenly you started to feel dizzy. Through a blurred vision, you see a mysterious circle that has appeared in the middle of the room. Beyond the circle, you see a place where you have never been. The circle is growing larger, and now it's devouring you.\n\n[[Jump into the circle->Plane_001]]",
+      "links": [
+        {
+          "name": "Jump into the circle",
+          "link": "Plane_001",
+          "pid": "2"
+        }
+      ],
+      "name": "Home",
+      "pid": "1",
+      "position": {
+        "x": "249",
+        "y": "9.5"
+      }
+    },
+    {
+      "text": "You are standing in the middle of a large grass plane. You see an old lady crouching next to a bonefire near you. In the far distance, you see some shapes of farmhouses gathered close to each other.\n\n[[Arroach to the old lady->Lady_001]]\n[[Go to the farmhouses->Village]]",
+      "links": [
+        {
+          "name": "Arroach to the old lady",
+          "link": "Lady_001",
+          "pid": "3"
+        },
+        {
+          "name": "Go to the farmhouses",
+          "link": "Village",
+          "pid": "4"
+        }
+      ],
+      "name": "Plane_001",
+      "pid": "2",
+      "position": {
+        "x": "249",
+        "y": "132.5"
+      }
+    },
+    {
+      "text": "As you walk towards the old lady, you realize how thin she is.\n\nThe old lay says, \"Hello young man, I... I haven't eaten anything in 3 days. Perhaps you could spare me some food?\"\n\nAs you look around, you realize that you are still holding a bag of chips.\n\n[[Give the chips to the old lady->Lady_002]]\nTo ignore her,\n[[Go to the farmhouses->Village]]",
+      "links": [
+        {
+          "name": "Give the chips to the old lady",
+          "link": "Lady_002",
+          "pid": "5"
+        },
+        {
+          "name": "Go to the farmhouses",
+          "link": "Village",
+          "pid": "4"
+        }
+      ],
+      "name": "Lady_001",
+      "pid": "3",
+      "position": {
+        "x": "87",
+        "y": "171.5"
+      }
+    },
+    {
+      "text": "You are standing in the middle of a small town. You see medieval buldings made of wood, hey, and some rough stones. You see some houses, and a tavern that says, \"Old Tybalt's Tavern\". You also see a relatively taller and fancier building that looks like the townhall.\n\n[[Go back to the grass plane->Plane_002]]\n[[Go back to the tavern->Tavern]]\n[[Go to the townhall->Town Hall]]",
+      "links": [
+        {
+          "name": "Go back to the grass plane",
+          "link": "Plane_002",
+          "pid": "6"
+        },
+        {
+          "name": "Go back to the tavern",
+          "link": "Tavern",
+          "pid": "7"
+        },
+        {
+          "name": "Go to the townhall",
+          "link": "Town Hall",
+          "pid": "8"
+        }
+      ],
+      "name": "Village",
+      "pid": "4",
+      "position": {
+        "x": "312",
+        "y": "282.5"
+      }
+    },
+    {
+      "text": "You gave your chips to the old lady. Now the old lady starts to cram the chips into her mouth. In less than a minute, she has finished the entire bag of chips.\n\n\"... Thank you so much.\" says the old lady.\n\nThe very next moment, her body starts to radiate light and warmth. A ray of bright golden light blinds your eyes. After a while, you opened your eyes again. Now the old lady was no longer in front of you. Instead you see a beautiful lady standing in front of you. She reminds you of a painting of Greek goddess that you have seen before.\n\nThe goddess smiles at you and says, \"Oh good traveller, You have proven that you truly has a warm and merciful heart. I am Ianne, the goddess of mercy. All virtues have forgotten in this world. But only a warm hearted traveller like you can bring them back. Now, take this golden whistle and head towards the village.\"\n\nThe goddess started to radiate once again. This time, herself turned into a bright golden light and scattered into the air.\n\n[[Go the the village->Village]]",
+      "links": [
+        {
+          "name": "Go the the village",
+          "link": "Village",
+          "pid": "4"
+        }
+      ],
+      "name": "Lady_002",
+      "pid": "5",
+      "position": {
+        "x": "87",
+        "y": "284.5"
+      }
+    },
+    {
+      "text": "You are standing in the middle of a large grass plane. In the far distance, you see a village.\n\n[[Go to the village->Village]]",
+      "links": [
+        {
+          "name": "Go to the village",
+          "link": "Village",
+          "pid": "4"
+        }
+      ],
+      "name": "Plane_002",
+      "pid": "6",
+      "position": {
+        "x": "353",
+        "y": "132.5"
+      }
+    },
+    {
+      "text": "A medieval tavern. Drunk people are dancing and singing. Some are gambling. You see a maid serving some drinks.\n\n[[Go outside->Village]]",
+      "links": [
+        {
+          "name": "Go outside",
+          "link": "Village",
+          "pid": "4"
+        }
+      ],
+      "name": "Tavern",
+      "pid": "7",
+      "position": {
+        "x": "505",
+        "y": "282.5"
+      }
+    },
+    {
+      "text": "A bulding made of nice stone bricks. Inside the building, there are several people working. Looks like an office except there are no computers, and people use candles to light the room.\n\n[[Go outside->Village]]",
+      "links": [
+        {
+          "name": "Go outside",
+          "link": "Village",
+          "pid": "4"
+        }
+      ],
+      "name": "Town Hall",
+      "pid": "8",
+      "position": {
+        "x": "303",
+        "y": "431.5"
+      }
+    }
+  ],
+  "name": "Adventure",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "03AA8C1D-977C-43CC-9B78-5CD4EAF93EF7"
+}
