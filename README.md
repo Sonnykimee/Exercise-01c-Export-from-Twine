@@ -14,4 +14,8 @@ None
 None
 
 ## Created by
+<<<<<<< HEAD
 Sonny Kim
+=======
+Sonny Kim
+>>>>>>> 31602c17ab1332721f9c1375969c44e1857351dd
